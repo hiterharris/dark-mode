@@ -251,3 +251,28 @@ text-align: left;
     border: none;
   }
 }
+
+.CoinInfo {
+  width: 30%;
+  margin: auto;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 25px;
+
+  .coin-img {
+    width:40%;
+    margin-right: 10%;
+  }
+
+  .coin-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  h2 {
+    margin-bottom: 5%;
+  }
+}
+
